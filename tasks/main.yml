@@ -6,3 +6,4 @@
 - name: Debug Hello
   debug:
     msg: "Var: {{ hello_var.stdout }}"
+  changed_when: false
