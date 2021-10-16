@@ -2,6 +2,7 @@
 - name: Say hello
   command: echo "hello world!"
   register: hello_var
+  changed_when: false
 
 - name: Debug Hello
   debug:
