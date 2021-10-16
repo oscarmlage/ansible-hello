@@ -2,7 +2,7 @@
 dependencies: []
 
 galaxy_info:
-  role_name: composer
+  role_name: hello
   author: oscarmlage
   description: Ansible role that just says hello
   company: "oscarmlage.com"
