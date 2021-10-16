@@ -1,0 +1,9 @@
+---
+- name: Say hello
+  command: echo "hello world!"
+  register: hello_var
+
+- name: Debug Hello
+  debug:
+    msg: "Var: {{ hello_var.stdout }}"
+
